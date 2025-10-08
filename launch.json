@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "name": "Launch HTML File",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "name": "Debug JavaScript",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/js/main.js",
+            "console": "integratedTerminal"
+        }
+    ]
+}
